@@ -45,11 +45,6 @@
     }
 }
 
-+ (CGFloat)navgationBarHeight
-{
-    return 44.0+[self statusBarHeight];
-}
-
 + (CGFloat)tabbarHeight
 {
     return 49.0+[self safeBottom];
